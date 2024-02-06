@@ -24,7 +24,7 @@ pages="159--171",
 abstract="Document-level relation extraction (Doc-RE) aims to classify relations between entities spread over multiple sentences. When one entity is paired with separate entities, the importance of its mentions varies, which means the entity representation should be different. However, most of the previous RE models failed to make the relation classification entity-pair aware effectively. To that end, we propose a novel adaptation to simultaneously utilize the encoder and decoder of the sequence-to-sequence (Seq2Seq) pre-trained model BART in a non-generative manner to tackle the Doc-RE task. The encoder encodes the document to get the entity-aware contextualized mention representation. The decoder uses a non-causal self-attention mechanism and masked cross-attention to model the interactions between the entity pair under consideration explicitly. By doing so, we can fully take advantage of the pre-trained model in the encoder and decoder sides. And experiments in three Doc-RE datasets show that our model can not only take more advantage of BART, but surpass various BERT and RoBERTa based models.",
 isbn="978-3-031-17120-8",
 bibtex_show={true},
-html="https://link.springer.com/chapter/10.1007/978-3-031-17120-8_13https://link.springer.com/chapter/10.1007/978-3-031-17120-8_13",
+html="https://link.springer.com/chapter/10.1007/978-3-031-17120-8_13",
 preview={bartreader.jpg}
 }
 
@@ -90,66 +90,46 @@ preview={bartreader.jpg}
       selected={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{lv-etal-2023-collie,
+    title = "{C}o{LL}i{E}: Collaborative Training of Large Language Models in an Efficient Way",
+    author = "Lv, Kai  and
+      Zhang, Shuo  and
+      Gu, Tianle  and
+      Xing, Shuhao  and
+      Hong, Jiawei  and
+      Chen, Keyu  and
+      Liu, Xiaoran  and
+      Yang, Yuqing  and
+      Guo, Honglin  and
+      Liu, Tengxiao  and
+      Sun, Yu  and
+      Guo, Qipeng  and
+      Yan, Hang  and
+      Qiu, Xipeng",
+    editor = "Feng, Yansong  and
+      Lefever, Els",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    html = "https://aclanthology.org/2023.emnlp-demo.48",
+    doi = "10.18653/v1/2023.emnlp-demo.48",
+    pages = "527--542",
+    abstract = "Large language models (LLMs) are increasingly pivotal in a wide range of natural language processing tasks. Access to pre-trained models, courtesy of the open-source community, has made it possible to adapt these models to specific applications for enhanced performance. However, the substantial resources required for training these models necessitate efficient solutions. This paper introduces CoLLiE, an efficient library that facilitates collaborative training of large language models using 3D parallelism, parameter-efficient fine-tuning (PEFT) methods, and optimizers such as Lion, Adan, Sophia, and LOMO. With its modular design and comprehensive functionality, CoLLiE offers a balanced blend of efficiency, ease of use, and customization. CoLLiE has proven superior training efficiency in comparison with prevalent solutions in pre-training and fine-tuning scenarios. Furthermore, we provide an empirical evaluation of the correlation between model size and GPU memory consumption under different optimization methods, as well as an analysis of the throughput. Lastly, we carry out a comprehensive comparison of various optimizers and PEFT methods within the instruction-tuning context. CoLLiE is available at https://github.com/OpenLMLab/collie.",
+    preview={collie.jpg},
+    bibtex_show={true},
+
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@misc{zhang2022sdcl,
+      title={SDCL: Self-Distillation Contrastive Learning for Chinese Spell Checking},
+      author={Xiaotian Zhang and Hang Yan and Yu Sun and Xipeng Qiu},
+      year={2022},
+      eprint={2210.17168},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      html={https://arxiv.org/abs/2210.17168},
+      preview={sdcl.jpg},
+      bibtex_show={true}
 }
