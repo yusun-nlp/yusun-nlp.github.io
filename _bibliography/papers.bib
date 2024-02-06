@@ -22,7 +22,10 @@ publisher="Springer International Publishing",
 address="Cham",
 pages="159--171",
 abstract="Document-level relation extraction (Doc-RE) aims to classify relations between entities spread over multiple sentences. When one entity is paired with separate entities, the importance of its mentions varies, which means the entity representation should be different. However, most of the previous RE models failed to make the relation classification entity-pair aware effectively. To that end, we propose a novel adaptation to simultaneously utilize the encoder and decoder of the sequence-to-sequence (Seq2Seq) pre-trained model BART in a non-generative manner to tackle the Doc-RE task. The encoder encodes the document to get the entity-aware contextualized mention representation. The decoder uses a non-causal self-attention mechanism and masked cross-attention to model the interactions between the entity pair under consideration explicitly. By doing so, we can fully take advantage of the pre-trained model in the encoder and decoder sides. And experiments in three Doc-RE datasets show that our model can not only take more advantage of BART, but surpass various BERT and RoBERTa based models.",
-isbn="978-3-031-17120-8"
+isbn="978-3-031-17120-8",
+bibtex_show={true},
+html="https://link.springer.com/chapter/10.1007/978-3-031-17120-8_13https://link.springer.com/chapter/10.1007/978-3-031-17120-8_13",
+preview={bartreader.jpg}
 }
 
 @inproceedings{yan-etal-2023-embarrassingly,
@@ -43,7 +46,9 @@ isbn="978-3-031-17120-8"
     doi = "10.18653/v1/2023.acl-short.123",
     pages = "1442--1452",
     abstract = "Named entity recognition (NER) is the task to detect and classify entity spans in the text. When entity spans overlap between each other, the task is named as nested NER. Span-based methods have been widely used to tackle nested NER. Most of these methods get a score matrix, where each entry corresponds to a span. However, previous work ignores spatial relations in the score matrix. In this paper, we propose using Convolutional Neural Network (CNN) to model these spatial relations. Despite being simple, experiments in three commonly used nested NER datasets show that our model surpasses several recently proposed methods with the same pre-trained encoders. Further analysis shows that using CNN can help the model find more nested entities. Besides, we find that different papers use different sentence tokenizations for the three nested NER datasets, which will influence the comparison. Thus, we release a pre-processing script to facilitate future comparison.",
-    selected={true}
+    selected={true},
+    bibtex_show={true},
+    preview={cnnner.jpg}
 }
 
 @inproceedings{yan-etal-2023-utc,
@@ -66,7 +71,8 @@ isbn="978-3-031-17120-8"
     doi = "10.18653/v1/2023.acl-long.226",
     pages = "4096--4122",
     abstract = "Information Extraction (IE) spans several tasks with different output structures, such as named entity recognition, relation extraction and event extraction. Previously, those tasks were solved with different models because of diverse task output structures. Through re-examining IE tasks, we find that all of them can be interpreted as extracting spans and span relations. They can further be decomposed into token-pair classification tasks by using the start and end token of a span to pinpoint the span, and using the start-to-start and end-to-end token pairs of two spans to determine the relation. Based on the reformulation, we propose a Unified Token-pair Classification architecture for Information Extraction (UTC-IE), where we introduce Plusformer on top of the token-pair feature matrix. Specifically, it models axis-aware interaction with plus-shaped self-attention and local interaction with Convolutional Neural Network over token pairs. Experiments show that our approach outperforms task-specific and unified models on all tasks in 10 datasets, and achieves better or comparable results on 2 joint IE datasets. Moreover, UTC-IE speeds up over state-of-the-art models on IE tasks significantly in most datasets, which verifies the effectiveness of our architecture.",
-    preview={utc-ie.pdf},
+    preview={utc-ie.jpg},
+    bibtex_show={true},
     selected={true}
 }
 
@@ -80,6 +86,7 @@ isbn="978-3-031-17120-8"
       abstract="Large language models (LLMs) garner significant attention for their unprecedented performance, leading to an increasing number of researches evaluating LLMs. However, these evaluation benchmarks are limited to assessing the instruction-following capabilities, overlooking the fundamental abilities that emerge during the pre-training stage. Previous subjective evaluation methods mainly reply on scoring by API models. However, in the absence of references, large models have shown limited ability to discern subtle differences. To bridge the gap, we propose F-Eval, a bilingual evaluation benchmark to evaluate the fundamental abilities, including expression, commonsense and logic. The tasks in F-Eval include multi-choice objective tasks, open-ended objective tasks, reference-based subjective tasks and reference-free subjective tasks. For reference-free subjective tasks, we devise new evaluation methods, serving as alternatives to scoring by API models. We conduct evaluations on 13 advanced LLMs. Results show that our evaluation methods show higher correlation coefficients and larger distinction than other evaluators. Additionally, we discuss the influence of different model sizes, dimensions, and normalization methods. We anticipate that F-Eval will facilitate the study of LLMs' fundamental abilities.",
       html={https://arxiv.org/abs/2401.14869},
       preview={f-eval.png},
+      bibtex_show={true},
       selected={true}
 }
 
