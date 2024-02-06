@@ -3,6 +3,82 @@
 
 @string{aps = {American Physical Society,}}
 
+@InProceedings{10.1007/978-3-031-17120-8_13,
+author="Yan, Hang
+and Sun, Yu
+and Dai, Junqi
+and Hu, Xiangkun
+and Guo, Qipeng
+and Qiu, Xipeng
+and Huang, Xuanjing",
+editor="Lu, Wei
+and Huang, Shujian
+and Hong, Yu
+and Zhou, Xiabing",
+title="BART-Reader: Predicting Relations Between Entities via Reading Their Document-Level Context Information",
+booktitle="Natural Language Processing and Chinese Computing",
+year="2022",
+publisher="Springer International Publishing",
+address="Cham",
+pages="159--171",
+abstract="Document-level relation extraction (Doc-RE) aims to classify relations between entities spread over multiple sentences. When one entity is paired with separate entities, the importance of its mentions varies, which means the entity representation should be different. However, most of the previous RE models failed to make the relation classification entity-pair aware effectively. To that end, we propose a novel adaptation to simultaneously utilize the encoder and decoder of the sequence-to-sequence (Seq2Seq) pre-trained model BART in a non-generative manner to tackle the Doc-RE task. The encoder encodes the document to get the entity-aware contextualized mention representation. The decoder uses a non-causal self-attention mechanism and masked cross-attention to model the interactions between the entity pair under consideration explicitly. By doing so, we can fully take advantage of the pre-trained model in the encoder and decoder sides. And experiments in three Doc-RE datasets show that our model can not only take more advantage of BART, but surpass various BERT and RoBERTa based models.",
+isbn="978-3-031-17120-8"
+}
+
+@inproceedings{yan-etal-2023-embarrassingly,
+    title = "An Embarrassingly Easy but Strong Baseline for Nested Named Entity Recognition",
+    author = "Yan, Hang  and
+      Sun, Yu  and
+      Li, Xiaonan  and
+      Qiu, Xipeng",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-short.123",
+    doi = "10.18653/v1/2023.acl-short.123",
+    pages = "1442--1452",
+    abstract = "Named entity recognition (NER) is the task to detect and classify entity spans in the text. When entity spans overlap between each other, the task is named as nested NER. Span-based methods have been widely used to tackle nested NER. Most of these methods get a score matrix, where each entry corresponds to a span. However, previous work ignores spatial relations in the score matrix. In this paper, we propose using Convolutional Neural Network (CNN) to model these spatial relations. Despite being simple, experiments in three commonly used nested NER datasets show that our model surpasses several recently proposed methods with the same pre-trained encoders. Further analysis shows that using CNN can help the model find more nested entities. Besides, we find that different papers use different sentence tokenizations for the three nested NER datasets, which will influence the comparison. Thus, we release a pre-processing script to facilitate future comparison.",
+    selected={true}
+}
+
+@inproceedings{yan-etal-2023-utc,
+    title = "{UTC}-{IE}: A Unified Token-pair Classification Architecture for Information Extraction",
+    author = "Yan, Hang  and
+      Sun, Yu  and
+      Li, Xiaonan  and
+      Zhou, Yunhua  and
+      Huang, Xuanjing  and
+      Qiu, Xipeng",
+    editor = "Rogers, Anna  and
+      Boyd-Graber, Jordan  and
+      Okazaki, Naoaki",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.226",
+    doi = "10.18653/v1/2023.acl-long.226",
+    pages = "4096--4122",
+    abstract = "Information Extraction (IE) spans several tasks with different output structures, such as named entity recognition, relation extraction and event extraction. Previously, those tasks were solved with different models because of diverse task output structures. Through re-examining IE tasks, we find that all of them can be interpreted as extracting spans and span relations. They can further be decomposed into token-pair classification tasks by using the start and end token of a span to pinpoint the span, and using the start-to-start and end-to-end token pairs of two spans to determine the relation. Based on the reformulation, we propose a Unified Token-pair Classification architecture for Information Extraction (UTC-IE), where we introduce Plusformer on top of the token-pair feature matrix. Specifically, it models axis-aware interaction with plus-shaped self-attention and local interaction with Convolutional Neural Network over token pairs. Experiments show that our approach outperforms task-specific and unified models on all tasks in 10 datasets, and achieves better or comparable results on 2 joint IE datasets. Moreover, UTC-IE speeds up over state-of-the-art models on IE tasks significantly in most datasets, which verifies the effectiveness of our architecture.",
+    selected={true}
+}
+
+@misc{sun2024feval,
+      title={F-Eval: Asssessing Fundamental Abilities with Refined Evaluation Methods},
+      author={Yu Sun and Keyu Chen and Shujie Wang and Qipeng Guo and Hang Yan and Xipeng Qiu and Xuanjing Huang and Dahua Lin},
+      year={2024},
+      eprint={2401.14869},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      selected={true}
+}
+
 @book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
@@ -56,22 +132,6 @@
   pages={549--560},
   year={1905},
   publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
 }
 
 @book{przibram1967letters,
