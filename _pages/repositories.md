@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: My github repository is https://github.com/yusun-nlp.
-nav: true
+nav: false
 nav_order: 4
 ---
 
