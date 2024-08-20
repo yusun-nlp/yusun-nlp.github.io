@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [Nested-NER](https://aclanthology.org/2023.acl-short.123/) has been accepted to ACL 2023 short. 👏🏻
+Our paper [UTC-IE](https://aclanthology.org/2023.acl-long.226/) has been accepted to ACL 2023. 👏🏻

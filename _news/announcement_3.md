@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-09-24
+date: 2023-07-10
 inline: true
 related_posts: false
 ---
 
-Our paper [BART-Reader](https://link.springer.com/chapter/10.1007/978-3-031-17120-8_13) has been accepted to NLPCC 2022. 👏🏻
+Our paper [Nested-NER](https://aclanthology.org/2023.acl-short.123/) has been accepted to ACL 2023 short. 👏🏻

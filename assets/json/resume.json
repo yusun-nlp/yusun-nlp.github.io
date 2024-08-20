@@ -38,11 +38,20 @@
     },
     {
       "name": "Shanghai AI Lab",
-      "position": "Trainee researcher",
+      "position": "Trainee researcher (Intern)",
       "url": "",
       "startDate": "2023-10",
-      "endDate": "Now",
+      "endDate": "2024-07",
       "summary": "(1) Research on the evaluation of Large Language Models (LLMs)",
+      "highlights": ["OpenLMLab"]
+    },
+    {
+      "name": "Shanghai AI Lab",
+      "position": "NLP Assistant Engineer",
+      "url": "",
+      "startDate": "2024-07",
+      "endDate": "now",
+      "summary": "(1) Research on the logic ability of Large Language Models (LLMs)",
       "highlights": ["OpenLMLab"]
     }
   ],

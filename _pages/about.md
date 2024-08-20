@@ -18,9 +18,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-👋 I am Yu Sun (孙瑜), a third-year Master student at Fudan University advised by Xipeng Qiu and Xuanjing Huang. I acquired
-my Bachelor Degree in Computer Science at Fudan University. Meanwhile, I'm currently a research intern at Shanghai AI
-Lab.
+👋 I am Yu Sun (孙瑜), a NLP Assistant Engineer at Shanghai AI Lab. I acquired my Master Degree at Fudan University advised by Xipeng Qiu and Xuanjing Huang, and acquired
+my Bachelor Degree in Computer Science at Fudan University. 
 
-👩‍💻 My primary research focuses on the **Evaluation** of Large Language Models (LLMs), with an emphasis on the models'
-fundamental language ability. Previously, I worked in the area of **Information Extraction**.
+👩‍💻 I am a membership in InternLM team. My primary research focuses on the **reasoning** ability of Large Language Models (LLMs) in pre-training stage. Previously, I worked in **Evaluation** of LLM with an emphasis on the models'
+fundamental language ability, and in the area of **Information Extraction**.
