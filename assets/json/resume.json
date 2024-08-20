@@ -79,6 +79,10 @@
   ],
   "awards": [
     {
+      "title": "Shanghai Outstanding Graduate",
+      "date": "2024-05"
+    },
+    {
       "title": "Qiming Xingchen Scholarship",
       "date": "2023-11"
     },
@@ -94,31 +98,31 @@
   "publications": [
     {
       "name": "F-Eval: Asssessing Fundamental Abilities with Refined Evaluation Methods",
-      "publisher": "Yu Sun,  Keyu Chen,  Shujie Wang, Qipeng Guo, Hang Yan, Xipeng Qiu, Xuanjing Huang, Dahua Lin",
-      "releaseDate": "2024-01",
-      "url": "https://arxiv.org/pdf/2401.14869.pdf",
-      "summary": ""
+      "publisher": "Yu Sun, Keyu Chen, Shujie Wang, Peiji Li, Qipeng Guo, Hang Yan, Xipeng Qiu, Xuanjing Huang, Dahua Lin",
+      "releaseDate": "2024-08",
+      "url": "https://aclanthology.org/2024.acl-long.507/",
+      "summary": "ACL 2024"
     },
     {
       "name": "UTC-IE: A Unified Token-pair Classification Architecture for Information Extraction",
       "publisher": "Hang Yan*, Yu Sun*, Xiaonan Li, Yunhua Zhou, Xuanjing Huang, Xipeng Qiu",
       "releaseDate": "2024-02",
       "url": "https://aclanthology.org/2023.acl-long.226/",
-      "summary": ""
+      "summary": "ACL 2023"
     },
     {
       "name": "An Embarrassingly Easy but Strong Baseline for Nested Named Entity Recognition",
       "publisher": "Hang Yan*, Yu Sun*, Xiaonan Li, Xipeng Qiu",
       "releaseDate": "2023-07",
       "url": "https://aclanthology.org/2023.acl-short.123/",
-      "summary": ""
+      "summary": "ACL 2023 short"
     },
     {
       "name": "BART-Reader: Predicting Relations Between Entities via Reading Their Document-Level Context Information",
       "publisher": "Hang Yan*, Yu Sun*, Junqi Dai, Xiangkun Hu, Qipeng Guo, Xipeng Qiu, Xuanjing Huang",
       "releaseDate": "2022-09",
       "url": "https://link.springer.com/chapter/10.1007/978-3-031-17120-8_13",
-      "summary": ""
+      "summary": "NLPCC 2022"
     }
   ],
   "skills": [
