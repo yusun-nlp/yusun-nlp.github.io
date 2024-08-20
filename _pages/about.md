@@ -21,5 +21,5 @@ social: true # includes social icons at the bottom of the page
 👋 I am Yu Sun (孙瑜), a NLP Assistant Engineer at Shanghai AI Lab. I acquired my Master Degree at Fudan University advised by Xipeng Qiu and Xuanjing Huang, and acquired
 my Bachelor Degree in Computer Science at Fudan University. 
 
-👩‍💻 I am a membership in InternLM team. My primary research focuses on the **reasoning** ability of Large Language Models (LLMs) in pre-training stage. Previously, I worked in **Evaluation** of LLM with an emphasis on the models'
+👩‍💻 I am a membership in **InternLM** team. My primary research focuses on the **reasoning** ability of Large Language Models (LLMs) in pre-training stage. Previously, I worked in **Evaluation** of LLM with an emphasis on the models'
 fundamental language ability, and in the area of **Information Extraction**.
